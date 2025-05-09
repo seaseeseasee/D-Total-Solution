@@ -1,0 +1,22 @@
+{
+  "name": "d-total-solution",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@srexi/purecounterjs": "^1.5.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.12.1",
+    "glightbox": "^3.3.1",
+    "isotope-layout": "^3.0.6",
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vue": "^3.3.0"
+  }
+}
