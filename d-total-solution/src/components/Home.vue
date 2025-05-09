@@ -353,7 +353,7 @@ import altFeaturesImg from '../assets/img/alt-features.png'
         <i class="bi bi-activity icon"></i>
         <h3>D-Retail Systems</h3>
         <p>software for retail business.</p>
-        <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        
       </div>
     </div><!-- End Service Item -->
 
@@ -362,7 +362,7 @@ import altFeaturesImg from '../assets/img/alt-features.png'
         <i class="bi bi-broadcast icon"></i>
         <h3>Transportation Systems </h3>
         <p>software for logistic.</p>
-        <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        
       </div>
     </div><!-- End Service Item -->
 
@@ -371,7 +371,7 @@ import altFeaturesImg from '../assets/img/alt-features.png'
         <i class="bi bi-easel icon"></i>
         <h3>Call Center Systems </h3>
         <p>software for CRM.</p>
-        <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+       
       </div>
     </div><!-- End Service Item -->
 
@@ -380,7 +380,7 @@ import altFeaturesImg from '../assets/img/alt-features.png'
         <i class="bi bi-bounding-box-circles icon"></i>
         <h3>Spa & service Systems </h3>
         <p>software for spa & beauty.</p>
-        <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+       
       </div>
     </div><!-- End Service Item -->
 
@@ -389,7 +389,7 @@ import altFeaturesImg from '../assets/img/alt-features.png'
         <i class="bi bi-calendar4-week icon"></i>
         <h3>Inventory Systems.</h3>
         <p>software for management inventory.</p>
-        <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+       
       </div>
     </div><!-- End Service Item -->
 
@@ -398,7 +398,7 @@ import altFeaturesImg from '../assets/img/alt-features.png'
         <i class="bi bi-chat-square-text icon"></i>
         <h3>Taxi Systems </h3>
         <p>software for taxi business.</p>
-        <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        
       </div>
     </div><!-- End Service Item -->
 
@@ -407,7 +407,7 @@ import altFeaturesImg from '../assets/img/alt-features.png'
         <i class="bi bi-calendar4-week icon"></i>
         <h3>Software On demand .</h3>
         <p>Software development by requirement from customer.</p>
-        <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        
       </div>
     </div><!-- End Service Item -->
 
@@ -417,7 +417,7 @@ import altFeaturesImg from '../assets/img/alt-features.png'
         <h3>Development software
         </h3>
         <p> for Kiosk and integrate with varies POS Vendor.</p>
-        <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        
       </div>
     </div><!-- End Service Item -->
 

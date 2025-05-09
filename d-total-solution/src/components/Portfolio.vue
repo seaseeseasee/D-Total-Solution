@@ -12,6 +12,13 @@ import branding1 from '../assets/img/portfolio/branding-1.jpg'
 import branding2 from '../assets/img/portfolio/branding-2.jpg'
 import branding3 from '../assets/img/portfolio/branding-3.jpg'
 
+import barger1 from '../assets/img/barger/barger-1.jpg'
+import barger2 from '../assets/img/barger/barger-2.jpg'
+import barger3 from '../assets/img/barger/barger-3.jpg'
+import barger4 from '../assets/img/barger/barger-4.jpg'
+import barger5 from '../assets/img/barger/barger-5.jpg'
+
+
 import books1 from '../assets/img/portfolio/books-1.jpg'
 import books2 from '../assets/img/portfolio/books-2.jpg'
 import books3 from '../assets/img/portfolio/books-3.jpg'
@@ -50,13 +57,13 @@ onMounted(() => {
                     <div id="spaCarousel1" class="carousel slide" data-bs-ride="carousel" style="max-width: 700px;">
                       <div class="carousel-inner rounded">
                         <div class="carousel-item active">
-                          <img :src="app1" class="d-block w-100" alt="App 1" />
+                          <img :src="barger1" class="d-block w-100" alt="Barger-1" />
                         </div>
                         <div class="carousel-item">
-                          <img :src="app2" class="d-block w-100" alt="App 2" />
+                          <img :src="barger2" class="d-block w-100" alt="Barger-2" />
                         </div>
                         <div class="carousel-item">
-                          <img :src="app3" class="d-block w-100" alt="App 3" />
+                          <img :src="barger3" class="d-block w-100" alt="Barger-3" />
                         </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#spaCarousel1" data-bs-slide="prev">
@@ -84,7 +91,7 @@ onMounted(() => {
                 </div>
                 <!-- ภาพก่อนกด -->
                 <div class="portfolio-content h-100 position-relative">
-                  <img :src="app3" class="img-fluid" alt="App 3" />
+                  <img :src="barger4" class="img-fluid" alt="Barger-4" />
                   <div class="portfolio-info text-center mt-2">
                     <h4>App 3</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -307,55 +314,58 @@ onMounted(() => {
 
             <!-- แผ่นที่ 6 -->
             <div class="col-lg-4 col-md-6">
-              <div id="dret-lightbox6" style="display: none">
-                <div class="d-flex gap-4 flex-wrap justify-content-center align-items-start" style="max-width: 2000px">
-
-                  <div id="spaCarousel6" class="carousel slide" data-bs-ride="carousel" style="max-width: 700px;">
-                    <div class="carousel-inner rounded">
-                      <div class="carousel-item active">
-                        <img :src="books1" class="d-block w-100" alt="Books 1" />
-                      </div>
-                      <div class="carousel-item">
-                        <img :src="books2" class="d-block w-100" alt="Books 2" />
-                      </div>
-                      <div class="carousel-item">
-                        <img :src="books3" class="d-block w-100" alt="Books 3" />
+                    <!-- Lightbox -->
+                    <div id="dret-lightbox6" style="display: none">
+                      <div class="d-flex gap-4 flex-wrap justify-content-center align-items-start" style="max-width: 2000px">
+                        <!-- Carousel -->
+                        <div id="spaCarousel6" class="carousel slide" data-bs-ride="carousel" style="max-width: 700px;">
+                          <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                              <img :src="branding1" class="d-block w-100" alt="Branding 1" />
+                            </div>
+                            <div class="carousel-item">
+                              <img :src="branding2" class="d-block w-100" alt="Branding 2" />
+                            </div>
+                            <div class="carousel-item">
+                              <img :src="branding3" class="d-block w-100" alt="Branding 3" />
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#spaCarousel6" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#spaCarousel6" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                          </button>
+                        </div>
+                        <!-- รายละเอียด -->
+                        <div style="max-width: 450px;">
+                          <h3>D-OND</h3>
+                          <p class="mb-2">software on demand</p>
+                          <ul class="text-muted ps-3 mb-0">
+                            <li>Phoenix Paper & Pulp PLC: Intranet payment system</li>
+                            <li>Freeze Systems Rental</li>
+                            <li>Phuket Srisuchard Delivery: Logistic systems</li>
+                            <li>Probike: Inventory system</li>
+                            <li>TAXI: Call center and taxi management system</li>
+                            <li>Thailand Film Office: Intranet film shooting registration</li>
+                            <li>One2One: Education solution across 120+ outlets</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#spaCarousel6" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#spaCarousel6" data-bs-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                    </button>
-                  </div>
-
-                  <div style="max-width: 450px;">
-                    <h3>Books Showcase</h3>
-                    <p class="mb-2">Creative book mockups</p>
-                    <ul class="text-muted ps-3 mb-0">
-                      <li>Business books</li>
-                      <li>Art books</li>
-                      <li>Creative inspiration</li>
-                    </ul>
+                    <!-- ภาพก่อนกด -->
+                    <div class="portfolio-content h-100 position-relative">
+                      <img :src="branding3" class="img-fluid" alt="Branding 3" />
+                      <div class="portfolio-info text-center mt-2">
+                        <h4>Branding 3</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <a class="btn btn-primary position-absolute top-50 start-50 translate-middle" data-fancybox data-src="#dret-lightbox6" data-type="inline" title="View More">
+                          <i class="bi bi-plus-circle fs-4"></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="portfolio-content h-100 position-relative portfolio-item isotope-item filter-app">
-                <img :src="books3" class="img-fluid" alt="Books 3" />
-                <div class="portfolio-info text-center mt-2">
-                  <h4>Books 3</h4>
-                  <p>Book mockups in style</p>
-                  <a class="btn btn-primary position-absolute top-50 start-50 translate-middle" data-fancybox data-src="#dret-lightbox6" data-type="inline" title="View More">
-                    <i class="bi bi-plus-circle fs-4"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            </div>
-
             <div class="row gy-3">
                   <!-- แผ่นที่ 7 -->
                   <div class="col-lg-4 col-md-6">
@@ -694,5 +704,11 @@ onMounted(() => {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+.portfolio-content img {
+  width: 100%;
+  height: 300px; /* หรือขนาดที่ต้องการ */
+  object-fit: cover; /* ทำให้ภาพไม่ยืด/หดผิดสัดส่วน */
+}
+
 
 </style>
